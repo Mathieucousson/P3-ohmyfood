@@ -42,7 +42,7 @@ p {
     margin-left: 40px;
     width: 400px;
     height: 90px;
-    border-radius: 35%;
+    border-radius: 100%;
     background-color: #F2F2F2;
   }
 
@@ -66,6 +66,9 @@ p {
     border-radius: 100%;
     background-color: purple;
   }
+}
+.fonctionne {
+  vertical-align: middle;
 }
 
 /*# sourceMappingURL=style.css.map */
