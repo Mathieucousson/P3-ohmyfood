@@ -46,14 +46,12 @@ p {
     background-color: #F2F2F2;
     margin-top: 20px;
     text-align: center;
-    padding-top: 30px;
   }
 
   span {
     border-radius: 100%;
     background-color: purple;
     color: white;
-    margin-right: 80px;
   }
 }
 
