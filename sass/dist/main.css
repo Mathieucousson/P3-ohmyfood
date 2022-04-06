@@ -50,11 +50,8 @@ p {
   }
 
   span {
-    border-radius: 100%;
+    border-radius: 60%;
     background-color: purple;
     color: white;
-    margin-right: 80px;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
