@@ -48,17 +48,12 @@ p {
     background-color: #F2F2F2;
     margin-top: 20px;
     text-align: center;
-    padding-right: 50px;
+    padding-right: 70px;
   }
 
-  span {
-    border-radius: 25px;
-    background-color: white;
-    color: white;
-    padding-right: 100px;
-  }
-
-  i {
-    padding-right: 3px;
+  .un {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 80px;
   }
 }

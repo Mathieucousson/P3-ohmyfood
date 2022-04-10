@@ -9,14 +9,15 @@ p {
     margin-left: 150px;
     margin-bottom: 20px;
   }
-
   nav {
     background-color: #F2F2F2;
     border: solid #F2F2F2;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     text-align: center;
   }
-
   button {
     width: 230px;
     height: 55px;
@@ -24,20 +25,19 @@ p {
     border: none;
     color: white;
   }
-
   .recherche {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-left: 150px;
   }
-
   .lineaire-simple {
+    background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
     background: linear-gradient(#FF79DA, #9356DC);
   }
-
   strong {
     color: white;
   }
-
   .premier {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -50,12 +50,13 @@ p {
     text-align: center;
     padding-right: 70px;
   }
-
   .un {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     padding-right: 80px;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=main.css.map */
