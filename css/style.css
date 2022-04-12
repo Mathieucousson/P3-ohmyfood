@@ -3,11 +3,10 @@ p {
 }
 
 @media screen and (max-width: 1280px) {
-  img {
-    width: 130px;
-    height: 20px;
-    margin-left: 150px;
-    margin-bottom: 20px;
+  img{
+
+object-fit: contain;
+
   }
 
   nav {
@@ -42,8 +41,8 @@ p {
     padding-top: 30px;
     padding-bottom: 30px;
     margin-left: 10px;
-    width: 350px;
-    height: 50px;
+    width: 330px;
+    height: 40px;
     border-radius: 10%;
     background-color: #F2F2F2;
     margin-top: 20px;
@@ -53,8 +52,14 @@ p {
 
   .un {
     display: flex;
-    justify-content: space-around;
-    padding-right: 80px;
+    padding-right: 50px;
+    justify-content: space-between;
+  }
+
+  span {
+    border-radius: 100%;
+    background-color: purple;
+    color: white;
   }
 }
 
