@@ -12,9 +12,15 @@ p {
 }
 
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width:768px) {
 
-    img{object-fit:cover;}
+  image{
+    
+    object-fit:cover;
+    height: auto;
+        width:auto;
+    
+    }
 
 
     nav {
@@ -68,7 +74,7 @@ p {
 
 .un{
 display:flex;
-padding-right:50px;ls
+padding-right:50px;
 justify-content:space-between;
 
 }
@@ -79,6 +85,8 @@ color:white;
 
 
 }
+
+
 }
     
   

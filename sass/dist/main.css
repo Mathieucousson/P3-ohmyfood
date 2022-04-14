@@ -5,8 +5,8 @@ p {
 @media screen and (max-width: 768px) {
   image {
     object-fit: cover;
-    height:   50;
-    width: 100px;
+    height: auto;
+    width: auto;
   }
 
   nav {
@@ -62,5 +62,3 @@ p {
     color: white;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
