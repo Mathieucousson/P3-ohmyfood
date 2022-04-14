@@ -3,10 +3,10 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  image {
+  img {
     object-fit: cover;
-    height: auto;
-    width: auto;
+    height: 120px;
+    width: 400px;
   }
 
   nav {
