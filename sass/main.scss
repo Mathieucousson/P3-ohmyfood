@@ -21,8 +21,15 @@ p {
         width:400px;
     
     }
+    .img{
+
+        object-fit:cover;
+        height: 120px;
+            width:140px;  
 
 
+    }
+  
     nav {
         background-color: #F2F2F2;
         border: solid #F2F2F2;
@@ -81,15 +88,20 @@ justify-content:space-between;
 span{
 border-radius:  100%; 
 background-color: purple;
+color:white;}
+
+#photos{
+
+background-color:#F2F2F2;
+
+}
+
+
+footer{
+background-color: black;
 color:white;
 
 
-
-.restos{
-
-border-radius:0% 0% 20% 20%
-
 }
-    
- } 
+}
     
