@@ -4,8 +4,9 @@ p {
 
 @media screen and (max-width: 768px) {
   .logo {
-    height: 20px;
-    width: 80px;
+    margin-left: 100px;
+    height: 45px;
+    width: 100px;
   }
 
   img {
@@ -15,7 +16,7 @@ p {
   }
 
   figcaption {
-    color: white;
+    background-color: white;
   }
 
   nav {
