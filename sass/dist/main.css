@@ -3,18 +3,21 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+  .logo {
+    height: 20px;
+    width: 80px;
+  }
+
   img {
     object-fit: cover;
     height: 120px;
     width: 400px;
   }
 
-  .logo{
-    height: 20px;
-    width: 80px;
-      }
-     
-  
+  figcaption {
+    color: white;
+  }
+
   nav {
     background-color: #F2F2F2;
     border: solid #F2F2F2;
@@ -68,7 +71,7 @@ p {
     color: white;
   }
 
-  #photos {
+  .photos {
     background-color: #F2F2F2;
   }
 
