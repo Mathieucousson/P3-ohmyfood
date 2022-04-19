@@ -12,38 +12,37 @@ p {
 
 
 @media screen and (max-width:768px) {
-  
- 
-  .logo{
-margin-left:100px  ;  
- height:45px;
- width:100px;
-      }
-     
 
-   img{
-   
-    object-fit:cover;
-    height: 120px;
-        width:400px;
-    
-    }
-     
-figcaption{
+    .icone {
 
-
-background-color:white;
+        width: 80px;
+        height: 50px;
 
 
     }
-  
+
+    img {
+
+        object-fit: cover;
+        height: 120px;
+        width: 400px;
+
+    }
+
+    figcaption {
+        border-radius: 20%;
+        background-color: white;
+        width: 400px;
+
+    }
+
     nav {
         background-color: #F2F2F2;
         border: solid #F2F2F2;
         flex-direction: column;
         text-align: center;
     }
-    
+
 
     button {
         width: 230px;
@@ -73,43 +72,44 @@ background-color:white;
 
 
     .premier {
-       
-       padding-top:30px;
-       padding-bottom: 30px;
+
+        padding-top: 30px;
+        padding-bottom: 30px;
         margin-left: 10px;
         width: 330px;
-        height:40px;
+        height: 40px;
         border-radius: 10%;
         background-color: #F2F2F2;
         margin-top: 20px;
-        text-align:center ;
+        text-align: center;
         padding-right: 70px;
     }
 
-.un{
-display:flex;
-padding-right:50px;
-justify-content:space-between;
+    .un {
+        display: flex;
+        padding-right: 50px;
+        justify-content: space-between;
+
+    }
+
+    span {
+        border-radius: 50%;
+        background-color: purple;
+        color: white;
+    }
+
+    .photos {
+
+        background-color: #F2F2F2;
+
+    }
+
+
+    footer {
+        background-color: grey;
+        color: white;
+
+    }
+
 
 }
-span{
-border-radius:  100%; 
-background-color: purple;
-color:white;}
-
-.photos{
-
-background-color:#F2F2F2;
-
-}
-
-
-footer{
-background-color: grey;
-color: white;
-
-}
-
-
-}
-    

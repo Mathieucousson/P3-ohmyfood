@@ -3,10 +3,9 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  .logo {
-    margin-left: 100px;
-    height: 45px;
-    width: 100px;
+  .icone {
+    width: 80px;
+    height: 50px;
   }
 
   img {
@@ -16,7 +15,9 @@ p {
   }
 
   figcaption {
+    border-radius: 20%;
     background-color: white;
+    width: 400px;
   }
 
   nav {
@@ -67,7 +68,7 @@ p {
   }
 
   span {
-    border-radius: 100%;
+    border-radius: 50%;
     background-color: purple;
     color: white;
   }
