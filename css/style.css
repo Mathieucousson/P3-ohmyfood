@@ -3,79 +3,77 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+  .logo {
+    height: 50px;
+    width: 130px;
+  }
+
   img {
     object-fit: cover;
     height: 120px;
     width: 400px;
   }
+}
+nav {
+  background-color: #F2F2F2;
+  border: solid #F2F2F2;
+  flex-direction: column;
+  text-align: center;
+}
 
-  .img {
-    object-fit: cover;
-    height: 120px;
-    width: 140px;
-  }
+button {
+  width: 230px;
+  height: 55px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+}
 
-  nav {
-    background-color: #F2F2F2;
-    border: solid #F2F2F2;
-    flex-direction: column;
-    text-align: center;
-  }
+.recherche {
+  display: flex;
+  margin-left: 150px;
+}
 
-  button {
-    width: 230px;
-    height: 55px;
-    border-radius: 25px;
-    border: none;
-    color: white;
-  }
+.lineaire-simple {
+  background: linear-gradient(#FF79DA, #9356DC);
+}
 
-  .recherche {
-    display: flex;
-    margin-left: 150px;
-  }
+strong {
+  color: white;
+}
 
-  .lineaire-simple {
-    background: linear-gradient(#FF79DA, #9356DC);
-  }
+.premier {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 10px;
+  width: 330px;
+  height: 40px;
+  border-radius: 10%;
+  background-color: #F2F2F2;
+  margin-top: 20px;
+  text-align: center;
+  padding-right: 70px;
+}
 
-  strong {
-    color: white;
-  }
+.un {
+  display: flex;
+  padding-right: 50px;
+  justify-content: space-between;
+}
 
-  .premier {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-left: 10px;
-    width: 330px;
-    height: 40px;
-    border-radius: 10%;
-    background-color: #F2F2F2;
-    margin-top: 20px;
-    text-align: center;
-    padding-right: 70px;
-  }
+span {
+  border-radius: 100%;
+  background-color: purple;
+  color: white;
+}
 
-  .un {
-    display: flex;
-    padding-right: 50px;
-    justify-content: space-between;
-  }
+.photos {
+  background-color: #F2F2F2;
+}
 
-  span {
-    border-radius: 100%;
-    background-color: purple;
-    color: white;
-  }
-
-  #photos {
-    background-color: #F2F2F2;
-  }
-
-  footer {
-    background-color: black;
-    color: white;
-  }
+footer {
+  background-color: grey;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
