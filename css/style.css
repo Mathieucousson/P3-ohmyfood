@@ -3,15 +3,14 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  .icone {
-    width: 100px;
-    height: 35px;
-  }
-
   img {
     object-fit: cover;
     height: 120px;
     width: 400px;
+  }
+
+  .barre {
+    width: 100px;
   }
 
   figcaption {
@@ -51,8 +50,8 @@ p {
   .premier {
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-right: 50px;
-    margin-left: 30px;
+    margin-right: 90px;
+    margin-left: 10px;
     width: 330px;
     height: 40px;
     border-radius: 10%;
@@ -69,7 +68,7 @@ p {
   }
 
   .class {
-    margin-left: 40px;
+    margin-left: 70px;
   }
 
   span {
@@ -78,6 +77,7 @@ p {
     border-radius: 50%;
     background-color: purple;
     color: white;
+    padding-top: 5px;
   }
 
   .photos {

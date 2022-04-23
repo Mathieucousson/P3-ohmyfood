@@ -15,8 +15,7 @@ p {
 
     .icone {
 
-        width: 100px;
-        height: 35px;
+       
     }
 
     img {
@@ -24,6 +23,13 @@ p {
         object-fit: cover;
         height: 120px;
         width: 400px;
+
+    }
+
+    .barre{
+
+width: 100px;
+
 
     }
 
@@ -73,8 +79,8 @@ p {
 
         padding-top: 30px;
         padding-bottom: 30px;
-        margin-right:50px;
-        margin-left:30px;
+        margin-right:90px;
+        margin-left:10px;
         width: 330px;
         height: 40px;
         border-radius: 10%;
@@ -92,7 +98,7 @@ p {
     }
 
 .class{
-margin-left: 40px;
+margin-left: 70px;
 
 
 }
@@ -103,6 +109,7 @@ margin-left: 40px;
         border-radius: 50%;
         background-color: purple;
         color: white;
+        padding-top:5px;
     }
 
 
