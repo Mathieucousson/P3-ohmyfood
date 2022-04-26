@@ -32,12 +32,23 @@ p {
     .barre{
         
 width: 100px;
-border:none;
 
     }
 
-    figcaption {
-        border-radius: 20%;
+    input{
+
+        border:none;
+
+    }
+
+    form{
+
+background-color: grey;
+
+    }
+
+     figcaption {
+        border-radius: 10%;
         background-color: white;
         width: 400px;
 
@@ -48,6 +59,14 @@ border:none;
         border: solid #F2F2F2;
         flex-direction: column;
         text-align: center;
+    }
+
+    #logo{
+    
+        display:flex; 
+       padding-right:1000px;
+        
+
     }
 
 
@@ -63,7 +82,7 @@ border:none;
 
     .recherche {
         display: flex;
-        margin-left: 150px;
+       
 
 
     }
@@ -100,11 +119,7 @@ border:none;
 
     }
 
-.class{
-margin-left: 70px;
 
-
-}
 
     span {
         height: 25px;
@@ -128,6 +143,7 @@ margin-left: 70px;
 
     footer {
         background-color: grey;
+        width :420px;
         color: white;
 
     }
