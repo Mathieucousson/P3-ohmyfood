@@ -21,6 +21,7 @@ p {
 
   input {
     border: none;
+    background-color: grey;
   }
 
   form {
@@ -42,7 +43,8 @@ p {
 
   #logo {
     display: flex;
-    padding-right: 1000px;
+    padding-right: 100px;
+    background: grey;
   }
 
   button {
@@ -92,6 +94,7 @@ p {
     background-color: purple;
     color: white;
     padding-top: 5px;
+    padding-left: -100px;
   }
 
   .photos {
@@ -102,8 +105,8 @@ p {
 
   footer {
     background-color: grey;
-    width: 420px;
     color: white;
+    width: 90%;
   }
 }
 
