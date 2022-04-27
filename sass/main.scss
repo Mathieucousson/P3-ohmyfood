@@ -111,16 +111,22 @@ background-color: grey;
         margin-top: 20px;
         text-align: center;
         padding-right: 70px;
+        border-radius:45%;
     }
 
     .un {
         display: flex;
         padding-right: 50px;
         justify-content: space-between;
+      
 
     }
 
+figure{
 
+    padding-right:30px;
+
+}
 
     span {
         height: 25px;
@@ -129,10 +135,8 @@ background-color: grey;
         background-color: purple;
         color: white;
         padding-top:5px;
-        padding-left:-100px;
+       
     }
-
-
 
        
     .photos {
@@ -140,8 +144,11 @@ background-color: grey;
         background-color: #F2F2F2;
         margin-right: -20px;
         margin-left:-20px;
-        
+       
     }
+
+
+
 
     footer {
         background-color: grey;

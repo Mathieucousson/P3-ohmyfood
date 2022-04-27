@@ -79,12 +79,17 @@ p {
     margin-top: 20px;
     text-align: center;
     padding-right: 70px;
+    border-radius: 45%;
   }
 
   .un {
     display: flex;
     padding-right: 50px;
     justify-content: space-between;
+  }
+
+  figure {
+    padding-right: 30px;
   }
 
   span {
@@ -94,7 +99,6 @@ p {
     background-color: purple;
     color: white;
     padding-top: 5px;
-    padding-left: -100px;
   }
 
   .photos {
