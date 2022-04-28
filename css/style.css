@@ -99,6 +99,7 @@ p {
     background-color: purple;
     color: white;
     padding-top: 5px;
+    padding-right: -80px;
   }
 
   .photos {
