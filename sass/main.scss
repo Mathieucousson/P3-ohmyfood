@@ -139,8 +139,20 @@ figure{
         padding-right:-80px;
        
     }
+    #icone{
 
-     
+        display: flex;
+        justify-content:space-between; 
+
+    }
+    h4{
+
+      display:flex;
+      justify-content: space-between; 
+      padding-right:20px ;
+
+    }
+
     .photos {
 
         background-color: #F2F2F2;
@@ -155,6 +167,15 @@ figure{
         width:90%;
     
     }
+
+
+}
+@media screen and (max-width:992px) {
+
+.restos
+
+
+
 
 
 }
