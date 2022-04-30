@@ -1,17 +1,136 @@
-/* Error: expected "{".
- *     ,
- * 175 | .restos
- *     |        ^
- *     '
- *   sass\main.scss 175:8  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a     \2577 \a 175 \2502  .restos\d\a     \2502         ^\a     \2575 \a   sass\\main.scss 175:8  root stylesheet';
+p {
+  color: black;
 }
+
+@media screen and (max-width: 768px) {
+  .icone {
+    height: 30px;
+    width: 170px;
+    margin-left: 130px;
+  }
+
+  img {
+    object-fit: cover;
+    height: 120px;
+    width: 400px;
+  }
+
+  .barre {
+    width: 100px;
+  }
+
+  input {
+    border: none;
+    background-color: grey;
+  }
+
+  form {
+    background-color: grey;
+  }
+
+  figcaption {
+    border-radius: 10%;
+    background-color: white;
+    width: 400px;
+  }
+
+  nav {
+    background-color: #F2F2F2;
+    border: solid #F2F2F2;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #logo {
+    display: flex;
+    padding-right: 100px;
+    background: grey;
+  }
+
+  button {
+    width: 230px;
+    height: 55px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+  }
+
+  .recherche {
+    display: flex;
+  }
+
+  .lineaire-simple {
+    background: linear-gradient(#FF79DA, #9356DC);
+  }
+
+  strong {
+    color: white;
+  }
+
+  .premier {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right: 90px;
+    margin-left: 10px;
+    width: 330px;
+    height: 40px;
+    border-radius: 10%;
+    background-color: #F2F2F2;
+    margin-top: 20px;
+    text-align: center;
+    padding-right: 70px;
+    border-radius: 45%;
+  }
+
+  .un {
+    display: flex;
+    padding-right: 50px;
+    justify-content: space-between;
+  }
+
+  figure {
+    padding-right: 30px;
+  }
+
+  span {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: purple;
+    color: white;
+    padding-top: 5px;
+    padding-right: -80px;
+  }
+
+  #icone {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  h4 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+  }
+
+  .photos {
+    background-color: #F2F2F2;
+    margin-right: -20px;
+    margin-left: -20px;
+  }
+
+  footer {
+    background-color: grey;
+    color: white;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 992px) {
+  img {
+    object-fit: cover;
+    height: 120px;
+    width: 400px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

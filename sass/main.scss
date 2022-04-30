@@ -172,9 +172,15 @@ figure{
 }
 @media screen and (max-width:992px) {
 
-.restos
 
 
+img {
+
+    object-fit: cover;
+    height: 120px;
+    width: 400px;
+
+}
 
 
 
