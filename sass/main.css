@@ -2,12 +2,32 @@ p {
   color: black;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 768px) {
+  .icone {
+    height: 30px;
+    width: 170px;
+    margin-left: 130px;
+  }
   img {
-    width: 130px;
-    height: 20px;
-    margin-left: 150px;
-    margin-bottom: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 120px;
+    width: 400px;
+  }
+  .barre {
+    width: 100px;
+  }
+  input {
+    border: none;
+    background-color: grey;
+  }
+  form {
+    background-color: grey;
+  }
+  figcaption {
+    border-radius: 10%;
+    background-color: white;
+    width: 400px;
   }
   nav {
     background-color: #F2F2F2;
@@ -17,6 +37,13 @@ p {
         -ms-flex-direction: column;
             flex-direction: column;
     text-align: center;
+  }
+  #logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-right: 100px;
+    background: grey;
   }
   button {
     width: 230px;
@@ -29,7 +56,6 @@ p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left: 150px;
   }
   .lineaire-simple {
     background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
@@ -41,22 +67,73 @@ p {
   .premier {
     padding-top: 30px;
     padding-bottom: 30px;
+    margin-right: 90px;
     margin-left: 10px;
-    width: 350px;
-    height: 50px;
+    width: 330px;
+    height: 40px;
     border-radius: 10%;
     background-color: #F2F2F2;
     margin-top: 20px;
     text-align: center;
     padding-right: 70px;
+    border-radius: 45%;
   }
   .un {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    padding-right: 80px;
+    padding-right: 50px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  figure {
+    padding-right: 30px;
+  }
+  span {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: purple;
+    color: white;
+    padding-top: 5px;
+    padding-right: -80px;
+  }
+  #icone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  h4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-right: 20px;
+  }
+  .photos {
+    background-color: #F2F2F2;
+    margin-right: -20px;
+    margin-left: -20px;
+  }
+  footer {
+    background-color: grey;
+    color: white;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 120px;
+    width: 400px;
   }
 }
 /*# sourceMappingURL=main.css.map */
