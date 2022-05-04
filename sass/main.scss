@@ -11,7 +11,7 @@ p {
 }
 
 
-@media screen and (max-width:768px) {
+
  
     
     .icone {
@@ -26,7 +26,8 @@ p {
 
         object-fit: cover;
         height: 120px;
-        width: 400px;
+        width: 375px;
+        border-radius:20px 20px 20px 20px;
 
     }
 
@@ -53,7 +54,7 @@ background-color: grey;
      figcaption {
         border-radius: 10%;
         background-color: white;
-        width: 400px;
+        width: 375px;
 
     }
 
@@ -112,14 +113,14 @@ background-color: grey;
         margin-top: 20px;
         text-align: center;
         padding-right: 70px;
-        border-radius:45%;
+        border-radius:20%;
     }
 
     .un {
         display: flex;
         padding-right: 50px;
         justify-content: space-between;
-      
+       
 
     }
 
@@ -169,8 +170,8 @@ figure{
     }
 
 
-}
-@media screen and (max-width:992px) {
+
+@media screen and (min-width:768px) {
 
 
 
@@ -178,15 +179,37 @@ img {
 
     object-fit: cover;
     height: 120px;
-    width: 400px;
+    width: 375px;
 
 }
 
+.restos{
+
+display: flex;
+flex-wrap:wrap;
+max-width:  1100px;
+margin:none;
+}
 .premier{
-
+    display: flex;
+    max-width:  1100px;
+    margin:none;
 
 
 }
+
+footer{
+
+    text-align: center;
+
+}
+
+
+ }
+
+ @media screen and (min-width:992px) {
+
+
 
 
 
