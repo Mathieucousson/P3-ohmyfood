@@ -79,7 +79,7 @@ strong {
   margin-top: 20px;
   text-align: center;
   padding-right: 70px;
-  border-radius: 20%;
+  border-radius: 15%;
 }
 
 .un {
@@ -100,6 +100,7 @@ span {
   color: white;
   padding-top: 5px;
   padding-right: -80px;
+  padding-left: -10%;
 }
 
 #icone {
