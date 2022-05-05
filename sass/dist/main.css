@@ -17,18 +17,15 @@ img {
 
 .barre {
   width: 100px;
-  height: auto;
 }
 
 input {
   border: none;
   background-color: grey;
-  height: 10px;
 }
 
 form {
   background-color: grey;
-  height: 50px;
 }
 
 figcaption {
@@ -102,7 +99,7 @@ span {
   background-color: purple;
   color: white;
   padding-top: 5px;
-  margin-right: -10px;
+  padding-right: -80px;
   padding-left: -10%;
 }
 
@@ -130,12 +127,6 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-  h4 {
-    display: flex;
-    justify-content: space-between;
-    padding-right: 20px;
-  }
-
   img {
     object-fit: cover;
     height: 120px;
@@ -161,5 +152,3 @@ footer {
     width: 100%;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
