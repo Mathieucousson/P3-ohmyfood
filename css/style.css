@@ -137,17 +137,19 @@ footer {
     display: flex;
     flex-wrap: wrap;
     max-width: 1100px;
-    margin: none;
+    margin: auto;
+    margin-left: 200px;
   }
 
   .premier {
     display: flex;
     max-width: 1100px;
-    margin: none;
+    margin: auto;
   }
 
   footer {
     text-align: center;
+    width: 100%;
   }
 }
 
