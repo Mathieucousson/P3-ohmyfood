@@ -33,8 +33,9 @@ img {
 
 .barre {
 
-    width: 100px;
+    
     height: auto;
+   
 
 
 }
@@ -107,27 +108,21 @@ strong {
 
 
 .premier {
-
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-right: 90px;
-    margin-left: 10px;
-    width: 330px;
-    height: 40px;
-    border-radius: 10%;
-    background-color: #F2F2F2;
-    margin-top: 20px;
+    
+    
+    width: 230px;
+    height: 55px;
+    border-radius: 25px;
     text-align: center;
-    padding-right: 70px;
-    border-radius: 15%;
+   
+    
 }
 
 .un {
     display: flex;
     padding-right: 50px;
     justify-content: space-between;
-
-
+   
 }
 
 figure {
@@ -194,7 +189,13 @@ footer {
         padding-right: 20px;
     }
 
+    #icone {
 
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
     img {
 
         object-fit: cover;
@@ -232,4 +233,16 @@ footer {
 
 }
 
-@media screen and (min-width:992px) {}
+@media screen and (min-width:992px) {
+
+
+    h4 {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 20px;
+        margin-top: 20px; 
+
+    }
+
+    
+}

@@ -16,16 +16,18 @@ img {
 }
 
 .barre {
-  width: 100px;
+  height: auto;
 }
 
 input {
   border: none;
   background-color: grey;
+  height: 10px;
 }
 
 form {
   background-color: grey;
+  height: 50px;
 }
 
 figcaption {
@@ -36,6 +38,7 @@ figcaption {
 
 nav {
   background-color: #F2F2F2;
+  height: 350px;
   border: solid #F2F2F2;
   flex-direction: column;
   text-align: center;
@@ -68,18 +71,10 @@ strong {
 }
 
 .premier {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-right: 90px;
-  margin-left: 10px;
-  width: 330px;
-  height: 40px;
-  border-radius: 10%;
-  background-color: #F2F2F2;
-  margin-top: 20px;
+  width: 230px;
+  height: 55px;
+  border-radius: 25px;
   text-align: center;
-  padding-right: 70px;
-  border-radius: 15%;
 }
 
 .un {
@@ -99,8 +94,11 @@ span {
   background-color: purple;
   color: white;
   padding-top: 5px;
-  padding-right: -80px;
-  padding-left: -10%;
+  margin-left: -10px;
+}
+
+i:hover {
+  color: purple;
 }
 
 #icone {
@@ -127,6 +125,17 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+  h4 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+  }
+
+  #icone {
+    display: flex;
+    justify-content: space-between;
+  }
+
   img {
     object-fit: cover;
     height: 120px;
@@ -150,5 +159,13 @@ footer {
   footer {
     text-align: center;
     width: 100%;
+  }
+}
+@media screen and (min-width: 992px) {
+  h4 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    margin-top: 20px;
   }
 }
