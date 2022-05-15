@@ -35,6 +35,8 @@ img {
 
     
     height: auto;
+   background-color: #F2F2F2;
+   margin-left: 150;
    
 
 
@@ -43,7 +45,7 @@ img {
 input {
 
     border: none;
-    background-color: grey;
+    background-color:#F2F2F2;
     height: 10px;
 
 }
@@ -52,6 +54,7 @@ form {
 
     background-color: grey;
     height: 50px;
+   
 
 
 
@@ -75,9 +78,8 @@ nav {
 #logo {
 
     display: flex;
-    padding-right: 100px;
-    background: grey;
-
+    padding-right:100px;
+    background: #f2f2f2;
 
 }
 
@@ -94,6 +96,7 @@ button {
 
 .recherche {
     display: flex;
+    background-color: #f2f2f2;
 
 }
 
@@ -112,8 +115,10 @@ strong {
     
     width: 230px;
     height: 55px;
+    align-items: center;
     border-radius: 25px;
     text-align: center;
+    background-color:#F2F2F2;
    
     
 }
@@ -177,7 +182,7 @@ h4 {
 footer {
     background-color: grey;
     color: white;
-    width: 90%;
+    width: 100%;
 
 }
 
