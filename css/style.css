@@ -18,7 +18,7 @@ img {
 .barre {
   height: auto;
   background-color: #F2F2F2;
-  margin-left: 150;
+  margin-left: 10px;
 }
 
 input {
@@ -48,7 +48,7 @@ nav {
 
 #logo {
   display: flex;
-  padding-right: 100px;
+  padding-left: 140px;
   background: #f2f2f2;
 }
 
