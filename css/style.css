@@ -73,13 +73,16 @@ strong {
   color: white;
 }
 
-.premier {
-  width: 230px;
-  height: 55px;
+.un {
+  margin: auto;
+  width: 280px;
+  height: 70px;
   align-items: center;
   border-radius: 25px;
   text-align: center;
   background-color: #F2F2F2;
+  margin-top: 20px;
+  box-shadow: 10px 5px 5px #F2F2F2;
 }
 
 .un {
