@@ -153,6 +153,13 @@ i:hover {
 color: purple;
 
 }
+a:link{
+
+    text-decoration : none;   
+   
+}
+
+
 
 #icone {
 
@@ -166,26 +173,24 @@ h4 {
     display: flex;
     justify-content: space-between;
     padding-right: 20px;
-
+    color: black;
 }
 
 .photos {
 
     background-color: #F2F2F2;
-    margin-right: -8px;
     margin-left: -8px;
-   ;
+    margin-right:-8px;
+
    }
 
 
-
 footer {
-    background-color: grey;
-    color: white;
-    width: 100%;
-    
-}
 
+background-color:grey ;
+color:white;
+border:solid purple ;
+}
 
 @media screen and (min-width:768px) {
     h4 {
@@ -245,12 +250,16 @@ footer {
         display: flex;
         justify-content: space-between;
         padding-right: 20px;
-        margin-top: 20px; 
+        margin-top: 20px;
+        color:black; 
 
     }
-a{
-    text-decoration:none;
-    
+a:link{
+
+    text-decoration : none;   
+   
 }
+
+
     
 }
