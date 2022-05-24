@@ -17,13 +17,13 @@ img {
 
 .barre {
   height: auto;
-  background-color: #F2F2F2;
+  background-color: grey;
   margin-left: 10px;
 }
 
 input {
   border: none;
-  background-color: #F2F2F2;
+  background-color: grey;
   height: 10px;
 }
 
@@ -49,7 +49,7 @@ nav {
 #logo {
   display: flex;
   padding-left: 140px;
-  background: #f2f2f2;
+  background: grey;
 }
 
 button {
@@ -57,15 +57,19 @@ button {
   height: 55px;
   border-radius: 25px;
   border: none;
-  color: white;
+  color: grey;
 }
 
 .recherche {
   display: flex;
-  background-color: #f2f2f2;
+  background-color: grey;
 }
 
 .lineaire-simple {
+  background: linear-gradient(#FF79DA, #9356DC);
+}
+
+#lineaire:hover {
   background: linear-gradient(#FF79DA, #9356DC);
 }
 
@@ -129,12 +133,13 @@ h4 {
   background-color: #F2F2F2;
   margin-left: -8px;
   margin-right: -8px;
+  height: 950px;
 }
 
 footer {
   background-color: grey;
   color: white;
-  border: solid purple;
+  border: solid grey;
 }
 
 @media screen and (min-width: 768px) {

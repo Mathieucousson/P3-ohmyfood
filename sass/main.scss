@@ -11,15 +11,12 @@ p {
 }
 
 
-
-
-
 .icone {
 
     height: 30px;
     width: 170px;
     margin-left: 130px;
-
+   
 }
 
 img {
@@ -35,7 +32,7 @@ img {
 
     
     height: auto;
-   background-color: #F2F2F2;
+   background-color: grey;
    margin-left: 10px;
    
 
@@ -45,7 +42,7 @@ img {
 input {
 
     border: none;
-    background-color:#F2F2F2;
+    background-color:grey;
     height: 10px;
 
 }
@@ -79,7 +76,7 @@ nav {
 
     display: flex;
     padding-left:140px;
-    background: #f2f2f2;
+    background: grey;
 
 }
 
@@ -89,19 +86,26 @@ button {
     height: 55px;
     border-radius: 25px;
     border: none;
-    color: white;
+    color: grey;
+  
 
 
 }
 
 .recherche {
     display: flex;
-    background-color: #f2f2f2;
+    background-color: grey;
 
 }
 
 .lineaire-simple {
     background: linear-gradient($pink, $purple)
+}
+
+#lineaire:hover{
+
+    background: linear-gradient($pink, $purple)
+
 }
 
 strong {
@@ -176,11 +180,14 @@ h4 {
     color: black;
 }
 
+
 .photos {
 
     background-color: #F2F2F2;
     margin-left: -8px;
     margin-right:-8px;
+    height:950px;
+    
 
    }
 
@@ -189,7 +196,7 @@ footer {
 
 background-color:grey ;
 color:white;
-border:solid purple ;
+border:solid grey ;
 }
 
 @media screen and (min-width:768px) {
