@@ -8,7 +8,7 @@ p {
   margin-left: 130px;
 }
 
-img {
+.img-cards {
   object-fit: cover;
   height: 120px;
   width: 375px;
