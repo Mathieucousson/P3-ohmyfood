@@ -191,4 +191,10 @@ footer {
   a:link {
     text-decoration: none;
   }
+
+  img {
+    object-fit: cover;
+    height: 120px;
+    width: 375px;
+  }
 }

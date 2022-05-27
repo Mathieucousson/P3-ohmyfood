@@ -178,7 +178,9 @@ h4 {
     justify-content: space-between;
     padding-right: 20px;
     color: black;
+
 }
+
 
 
 .photos {
@@ -267,6 +269,13 @@ a:link{
    
 }
 
+img {
+
+    object-fit: cover;
+    height: 120px;
+    width: 375px;
+
+}
 
     
 }
