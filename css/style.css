@@ -1,5 +1,16 @@
+/*
+*{
+
+    border: 1px solid red;
+
+
+}*/
 p {
   color: black;
+}
+
+body {
+  margin: 0px;
 }
 
 .icone {
@@ -132,17 +143,16 @@ h4 {
 
 .photos {
   background-color: #F2F2F2;
-  margin-left: -8px;
-  margin-right: -8px;
   height: 950px;
 }
 
 footer {
+  box-sizing: border-box;
   background-color: grey;
   color: white;
-  border: solid grey;
-  width: 102%;
-  margin: -7px;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -205,7 +215,7 @@ img {
 
 main {
   background-color: grey;
-  height: 100px;
+  height: 100%;
   width: 100%;
   border-radius: 10px;
   margin-top: -30px;

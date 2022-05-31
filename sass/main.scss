@@ -4,12 +4,23 @@ $green:#99E2D0;
 
 
 $black:black;
+/*
+*{
+
+    border: 1px solid red;
+    
+
+}*/
 
 p {
     color: black;
 
 }
+body{
 
+margin:0px;
+
+}
 
 .icone {
 
@@ -187,8 +198,6 @@ h4 {
 .photos {
 
     background-color: #F2F2F2;
-    margin-left: -8px;
-    margin-right:-8px;
     height:950px;
     
 
@@ -196,13 +205,12 @@ h4 {
 
 
 footer {
-
+box-sizing: border-box;
 background-color:grey ;
 color:white;
-border:solid grey ;
-width:102%;
-margin:-7px ;
-text-indent: 10px;
+width:100%;
+padding-top:20px;
+padding-left:20px;
 
 }
 
