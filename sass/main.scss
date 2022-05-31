@@ -95,7 +95,7 @@ button {
 .recherche {
     display: flex;
     background-color: grey;
-
+    overflow: auto;
 }
 
 .lineaire-simple {
@@ -110,6 +110,7 @@ button {
 
 strong {
     color: white;
+   
 
 }
 
@@ -199,7 +200,14 @@ footer {
 background-color:grey ;
 color:white;
 border:solid grey ;
+width:102%;
+margin:-7px ;
+text-indent: 10px;
+
 }
+
+
+
 
 @media screen and (min-width:768px) {
     h4 {
@@ -214,14 +222,7 @@ border:solid grey ;
         justify-content: space-between;
     
     }
-    
-    img {
-
-        object-fit: cover;
-        height: 120px;
-        width: 375px;
-
-    }
+      
 
     .restos {
 
@@ -279,3 +280,22 @@ img {
 
     
 }
+
+  header
+  
+  {position: relative;
+
+}
+    
+  img {width:375px;
+
+}
+    
+main {
+    background-color:grey;
+    height: 100%;
+    width: 100%;
+     border-radius: 10px;
+     margin-top:-30px;
+     position: relative;
+     }

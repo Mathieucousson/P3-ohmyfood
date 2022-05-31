@@ -63,6 +63,7 @@ button {
 .recherche {
   display: flex;
   background-color: grey;
+  overflow: auto;
 }
 
 .lineaire-simple {
@@ -140,6 +141,8 @@ footer {
   background-color: grey;
   color: white;
   border: solid grey;
+  width: 102%;
+  margin: -7px;
 }
 
 @media screen and (min-width: 768px) {
@@ -152,12 +155,6 @@ footer {
   #icone {
     display: flex;
     justify-content: space-between;
-  }
-
-  img {
-    object-fit: cover;
-    height: 120px;
-    width: 375px;
   }
 
   .restos {
@@ -191,6 +188,28 @@ footer {
   a:link {
     text-decoration: none;
   }
+
+  img {
+    object-fit: cover;
+    height: 120px;
+    width: 375px;
+  }
+}
+header {
+  position: relative;
+}
+
+img {
+  width: 375px;
+}
+
+main {
+  background-color: grey;
+  height: 100px;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: -30px;
+  position: relative;
 }
 
 /*# sourceMappingURL=style.css.map */
