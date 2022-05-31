@@ -153,6 +153,7 @@ footer {
   width: 100%;
   padding-top: 20px;
   padding-left: 20px;
+  padding-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -205,17 +206,24 @@ footer {
     width: 375px;
   }
 }
+button {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
 header {
   position: relative;
 }
 
 img {
-  width: 375px;
+  width: 100%;
+  height: 350px;
 }
 
 main {
   background-color: grey;
-  height: 100%;
+  height: 100px;
   width: 100%;
   border-radius: 10px;
   margin-top: -30px;
