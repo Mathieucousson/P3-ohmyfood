@@ -208,10 +208,15 @@ footer {
 }
 button {
   color: black;
-  text-align: center;
   font-weight: bold;
   font-size: large;
   background-color: white;
+  padding: 0px;
+  margin-left: 50px;
+}
+
+em {
+  padding-left: 60px;
 }
 
 header {
