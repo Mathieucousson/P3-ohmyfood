@@ -6,6 +6,7 @@ button {
   padding: 0px;
   margin-left: 60px;
   word-spacing: 100px;
+  border: none;
 }
 
 header {

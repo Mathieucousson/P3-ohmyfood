@@ -91,17 +91,14 @@ nav {
 
 }
 
-
-button {
+a{
     width: 230px;
-    height: 55px;
+    height: 35px;
     border-radius: 25px;
     border: none;
-    color: grey;
-  
-
-
-}
+    text-align :center;
+    padding-top:20px;
+    }
 
 .recherche {
     display: flex;
