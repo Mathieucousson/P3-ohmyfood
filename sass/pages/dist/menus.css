@@ -19,12 +19,26 @@ img {
 }
 
 main {
-  background-color: grey;
   height: 800px;
   width: 100%;
   border-radius: 10px;
   margin-top: -60px;
   position: relative;
   background-color: #F2F2F2;
-  border-radius: 9% 9% 0% 0%;
+  border-radius: 8% 8% 0% 0%;
+}
+
+h1 {
+  color: black;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+p {
+  padding-left: 20px;
+}
+
+.prix {
+  border: solid white;
 }
