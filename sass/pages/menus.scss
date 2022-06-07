@@ -1,69 +1,70 @@
 button {
 
-color:black;
-font-weight: bold;
-font-size:large;
-background-color: white;
-padding: 0px;
-margin-left:60px;
-word-spacing: 100px;
-border: none;
+     color: black;
+     font-weight: bold;
+     font-size: large;
+     background-color: white;
+     padding: 0px;
+     margin-left: 60px;
+     word-spacing: 100px;
+     border: none;
 }
 
 
 
-header
-  
-{position: relative;
+header {
+     position: relative;
 
 }
-  
-img {width:100%;
-    height: 350px;
+
+img {
+     width: 100%;
+     height: 350px;
 
 }
-  
+
 
 main {
-   height: 800px;
-   width: 100%;
-   border-radius: 10px;
-   margin-top:-60px;
-   position: relative;
-   background-color: #F2F2F2;
-   border-radius:8% 8% 0% 0%;
-     }
+     height: 800px;
+     width: 100%;
+     border-radius: 10px;
+     margin-top: -60px;
+     position: relative;
+     background-color: #F2F2F2;
+     border-radius: 8% 8% 0% 0%;
+}
 
-     h1 {
+h1 {
 
-    color: black;
-    padding-left:20px;
-    display:flex;
-    justify-content: space-around;
-     }
+     color: black;
+     padding-left: 20px;
+     display: flex;
+     justify-content: space-around;
+}
 
-     p{
+p {
 
-padding-left: 20px;
+     padding-left: 20px;
 
-     }
+}
 
-     .prix{
-      
-background-color: white;
-border-radius: 25% 25% 25% 25%;
-width: 400px;
-height: 85px;
-margin-left:40px; 
-padding-top:10px;
-          }
+.prix {
 
- .euros{
-
-display:flex;
-justify-content: space-between;
-
- }    
+     background-color: white;
+     border-radius: 25% 25% 25% 25%;
+     width: 400px;
+     height: 85px;
+     margin-left: 40px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     margin-top: 30px;
 
 
+ }
 
+text{
+
+ ;
+
+
+}

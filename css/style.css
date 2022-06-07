@@ -251,11 +251,8 @@ p {
   height: 85px;
   margin-left: 40px;
   padding-top: 10px;
-}
-
-.euros {
-  display: flex;
-  justify-content: space-between;
+  padding-bottom: 10px;
+  margin-top: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
