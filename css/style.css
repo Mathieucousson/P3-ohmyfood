@@ -108,7 +108,7 @@ figure {
   padding-right: 30px;
 }
 
-span {
+.un span {
   height: 25px;
   width: 25px;
   border-radius: 50%;
@@ -244,15 +244,29 @@ p {
   padding-left: 20px;
 }
 
-.prix {
+.noms {
+  margin: 0 px;
+}
+
+.plat {
   background-color: white;
-  border-radius: 25% 25% 25% 25%;
+  border-radius: 5px;
   width: 400px;
   height: 85px;
   margin-left: 40px;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 30px;
+  display: flex;
+}
+
+.intitule {
+  width: 360px;
+}
+
+.prix {
+  width: 40px;
+  padding-top: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
