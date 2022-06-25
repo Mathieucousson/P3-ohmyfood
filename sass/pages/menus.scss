@@ -77,6 +77,8 @@ padding-top:50px;
 }
 .lineaire-simple {
      background: linear-gradient($pink, $purple);
+    
+     
    
    
  }
@@ -86,12 +88,15 @@ padding-top:50px;
 
  }
 
- a{
-
-margin-left:130px ;
-margin-top:80px;
+ .commander{
+display:block;
+margin:auto;
+margin-top:35px;
 margin-bottom: 80px;
 text-align: center;
+width:200px;
+padding :10px;
+border-radius:10px ;
 }
 
 

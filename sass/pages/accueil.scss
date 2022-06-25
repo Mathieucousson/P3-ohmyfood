@@ -92,23 +92,29 @@ nav {
 
 }
 
-a {
-    width: 230px;
-    height: 35px;
+.card {
+    width: 375px;
     border-radius: 25px;
     border: none;
     padding-top: 20px;
+
 }
 
 .recherche {
     display: flex;
     background-color: grey;
     overflow: auto;
-}
+ }
 
 .lineaire-simple {
-    background: linear-gradient($pink, $purple)
-}
+    background: linear-gradient($pink, $purple);
+     }
+
+.lineaire-simple{
+ 
+border-radius:75%;
+
+}    
 
 #lineaire:hover {
 
@@ -231,9 +237,9 @@ footer {
 
         display: flex;
         flex-wrap: wrap;
-        max-width: 1100px;
+        max-width: 850px;
         margin: auto;
-        margin-left: 200px;
+       justify-content:space-between;
     }
 
 

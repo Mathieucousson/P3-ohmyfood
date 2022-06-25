@@ -63,9 +63,8 @@ nav {
   background: grey;
 }
 
-a {
-  width: 230px;
-  height: 35px;
+.card {
+  width: 375px;
   border-radius: 25px;
   border: none;
   padding-top: 20px;
@@ -79,6 +78,10 @@ a {
 
 .lineaire-simple {
   background: linear-gradient(#FF79DA, #9356DC);
+}
+
+.lineaire-simple {
+  border-radius: 25%;
 }
 
 #lineaire:hover {
@@ -168,9 +171,9 @@ footer {
   .restos {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1100px;
+    max-width: 850px;
     margin: auto;
-    margin-left: 200px;
+    justify-content: space-between;
   }
 
   .premier {
@@ -273,11 +276,15 @@ strong {
   color: white;
 }
 
-a {
-  margin-left: 130px;
-  margin-top: 80px;
+.commander {
+  display: block;
+  margin: auto;
+  margin-top: 35px;
   margin-bottom: 80px;
   text-align: center;
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
